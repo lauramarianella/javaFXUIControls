@@ -47,6 +47,7 @@ public class TableViewGUI extends Application {
             tableView.getItems().add(new Person("Dina", "Kam", "3@myemail.com"));
             tableView.getItems().add(new Person("Carla", "B", "4@myemail.com"));
             tableView.getItems().add(new Person("Sly", "Chan", "5@myemail.com"));
+            tableView.getItems().add(new Person("Pak", "Fed", "6@myemail.com"));
             tableView.setPrefHeight(180);
             tableView.setPrefWidth(260);
         }else{
