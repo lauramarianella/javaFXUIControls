@@ -50,7 +50,7 @@ public class _16_08_ComboBoxDemo extends Application {
     flagDescription[3] = "Canada is better";
 
     // Set the first country (France) for display
-    setDisplay(0);
+    setDisplay(3);
     
     for(ImageView jk : flagImage){
         jk.setFitWidth(100);
@@ -65,7 +65,7 @@ public class _16_08_ComboBoxDemo extends Application {
     paneForComboBox.setCenter(cbo);
     pane.setTop(paneForComboBox);
     cbo.setPrefWidth(400);
-    cbo.setValue("France");
+    cbo.setValue("Canada");
     
     ObservableList<String> items = 
       FXCollections.observableArrayList(flagTitles);
