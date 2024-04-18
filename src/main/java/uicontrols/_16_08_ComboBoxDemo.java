@@ -22,7 +22,6 @@ import javafx.scene.text.Font;
 
 public class _16_08_ComboBoxDemo extends Application {
   // Declare an array of Strings for flag titles
-main
   private String[] flagTitles = {"Canada","France", "United Kingdom", "Italy","USA"};
 
   // Declare an ImageView array for the national flags of 9 countries
@@ -36,7 +35,7 @@ main
   };
   
   // Declare an array of strings for flag descriptions
-  private String[] flagDescription = new String[4];
+  private String[] flagDescription = new String[5];
 
   // Declare and create a description pane
   private DescriptionPane descriptionPane = new DescriptionPane();
@@ -47,7 +46,6 @@ main
   @Override // Override the start method in the Application class
   public void start(Stage primaryStage) {
     // Set text description
-main
     flagDescription[0] = "Description for Canada ... ";
     flagDescription[1] = "Description for France ... ";
     flagDescription[2] = "Description for UK ... ";
