@@ -29,7 +29,6 @@ public class _16_08_ComboBoxDemo extends Application {
      new ImageView("https://upload.wikimedia.org/wikipedia/commons/a/a4/Animated-Flag-France.gif")
     ,new ImageView("https://upload.wikimedia.org/wikipedia/commons/5/58/UK_flag_m_v.gif")
     ,new ImageView("https://upload.wikimedia.org/wikipedia/commons/4/42/Animated-Flag-USA.gif")
-          ,new ImageView("https://upload.wikimedia.org/wikipedia/commons/3/39/Animated-Flag-Canada.gif")
   };
   
   // Declare an array of strings for flag descriptions
