@@ -27,7 +27,7 @@ public class _16_08_ComboBoxDemo extends Application {
 
   // Declare an ImageView array for the national flags of 9 countries
    ImageView[] flagImage = {
-     new ImageView("https://upload.wikimedia.org/wikipedia/commons/4/42/Animated-Flag-USA.gif")
+     new ImageView("https://upload.wikimedia.org/wikipedia/commons/3/39/Animated-Flag-Canada.gif")
     ,new ImageView("https://upload.wikimedia.org/wikipedia/commons/a/a4/Animated-Flag-France.gif")
     ,new ImageView("https://upload.wikimedia.org/wikipedia/commons/5/58/UK_flag_m_v.gif")
     ,new ImageView("https://upload.wikimedia.org/wikipedia/commons/8/83/Animated-Flag-Italy-OpenSCAD.gif")
@@ -49,8 +49,8 @@ public class _16_08_ComboBoxDemo extends Application {
     flagDescription[0] = "Canadian flag.";
     flagDescription[1] = "Description for France ... ";
     flagDescription[2] = "Description for UK ... ";
-    flagDescription[2] = "Italy flag.";
-    flagDescription[3] = "The USA national flag ...";
+    flagDescription[3] = "Italy flag.";
+    flagDescription[4] = "The USA national flag ...";
 
     // Set the first country (France) for display
     setDisplay(0);
